@@ -498,7 +498,13 @@ See \"Reusing passwords for several connections\" from INFO.
 
 ;; {{ move focus between sub-windows
 (require 'window-numbering)
-(custom-set-faces '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold)))))
+(custom-set-faces 
+  '(window-numbering-face ((t (:foreground "DeepPink" :underline "DeepPink" :weight bold))))
+  '(col-highlight ((t (:background "color-233"))))
+  '(hl-line ((t (:background "color-233"))))
+  '(lazy-highlight ((t (:background "black" :foreground "white" :underline t))))
+  '(neo-dir-link-face ((t (:foreground "cyan"))))
+  '(neo-file-link-face ((t (:foreground "white")))))
 (window-numbering-mode 1)
 ;; }}
 
