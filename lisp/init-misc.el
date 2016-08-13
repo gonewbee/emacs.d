@@ -504,7 +504,21 @@ See \"Reusing passwords for several connections\" from INFO.
   '(hl-line ((t (:background "color-233"))))
   '(lazy-highlight ((t (:background "black" :foreground "white" :underline t))))
   '(neo-dir-link-face ((t (:foreground "cyan"))))
-  '(neo-file-link-face ((t (:foreground "white")))))
+  '(neo-file-link-face ((t (:foreground "white"))))
+  '(company-preview
+        ((t (:foreground "darkgray" :underline t))))
+  '(company-preview-common
+        ((t (:inherit company-preview))))
+  '(company-tooltip
+        ((t (:background "lightgray" :foreground "black"))))
+  '(company-tooltip-selection
+        ((t (:background "steelblue" :foreground "white"))))
+  '(company-tooltip-common
+        ((((type x)) (:inherit company-tooltip :weight bold))
+             (t (:inherit company-tooltip))))
+  '(company-tooltip-common-selection
+        ((((type x)) (:inherit company-tooltip-selection :weight bold))
+             (t (:inherit company-tooltip-selection)))))
 (window-numbering-mode 1)
 ;; }}
 

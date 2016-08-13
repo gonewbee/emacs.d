@@ -52,6 +52,7 @@ But you may use safer HTTPS instead.")
     w3m
     erlang
     workgroups2
+    company-go
     company-c-headers)
   "Don't install any Melpa packages except these packages")
 
@@ -239,6 +240,7 @@ ARCHIVE is the string name of the package archive.")
 (require-package 'yasnippet)
 (require-package 'company)
 (require-package 'company-c-headers)
+(require-package 'company-go)
 (require-package 'legalese)
 (require-package 'simple-httpd)
 (require-package 'git-messenger)
